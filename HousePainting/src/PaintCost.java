@@ -96,7 +96,7 @@ public class PaintCost {
 		//System.out.print("Enter the square feet of the doors: ");
 		//double sqFtDoors = in.nextDouble();
 		
-		double sqFtToPaint =(2 *(houseLengthFeet * houseWidthFeet) + 2 *(houseLengthFeet * houseWidthFeet + 0.5 * (houseLengthFeet * (houseHeightFeet-houseWidthFeet)))) - (windowNumber * windowLengthFeet * windowWidthFeet) + (doorNumber * doorLengthFeet * doorWidthFeet);
+		double sqFtToPaint =(2 *(houseLengthFeet * houseWidthFeet) + 2 *(houseLengthFeet * houseWidthFeet + 0.5 * (houseLengthFeet * (houseHeightFeet-houseWidthFeet)))) - ((windowNumber * windowLengthFeet * windowWidthFeet) + (doorNumber * doorLengthFeet * doorWidthFeet));
 		
 		//System.out.println(costOfPainting);
 		double costToPaint = (sqFtToPaint * sqFtCost);
