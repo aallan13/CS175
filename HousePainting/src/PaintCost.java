@@ -63,7 +63,7 @@ public class PaintCost {
 		System.out.print("Enter width of window in feet: ");
 		double windowWidthFeet = in.nextDouble();
 		
-		System.out.print("Enter reamining width of window in inches: ");
+		System.out.print("Enter remaining width of window in inches: ");
 		double windowWidthInch = in.nextDouble();
 		windowWidthFeet = windowWidthFeet + windowWidthInch/12;
 		
@@ -100,7 +100,7 @@ public class PaintCost {
 		
 		//System.out.println(costOfPainting);
 		double costToPaint = (sqFtToPaint * sqFtCost);
-		System.out.println(costToPaint);
+		System.out.println("The total cost to paint the house is $" + costToPaint);
 		
 		
 		
